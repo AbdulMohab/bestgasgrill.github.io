@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+}
+
+#logo1 img{
+    width: 150px;
+    margin-top: 2px;
+    margin-left: 6px;
+    padding: 0px 0px 0px 180px;
+}
+
+#spacer{
+    padding: 0px 0px 0px 700px;
+}
+#social-icons{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+
+}
+#social-icons img{
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    padding: 18px 0px 18px 172px;
+    background-color: #00897B;
+    vertical-align: middle;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 12px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+
+}
+
+#navbar-2 ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+    background-color: #EDEDED;
+    vertical-align: middle;
+}
+#navbar-2{
+    margin: 0px 210px 0px 180px;
+}
+
+li#Trending {
+    list-style: none;
+}
+
+li#Trending a {
+    color: #00897B!important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#navbar-2 ul li{
+    margin: 13px;
+}
+
+#navbar-2 ul li a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 14px;
+    /* padding: 12px; */
+}
+
+#para-1{
+    margin: 0px 210px 0px 180px;
+    padding: 30px 0px 0px 0px;
+}
+#para-1 small a{
+    color: black;
+}
+
+small#para-after-navbar2 {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.first-section{
+    margin: 30px 210px 0px 180px;
+}
+.first-section #first-figure figure img{
+    width: 100%;
+}
+.first-section #first-figure figure figcaption{
+    background-color: #EDEDED;
+    margin: -4px 0px 0px 0px;
+}
+.first-section #first-figure figure figcaption h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #333333;
+    padding: 12px 0px 12px 14px;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 210px 0px 180px;
+}
+
+.grid-container .grid-item figure img {
+    width: 100%;
+}
+
+.grid-container .grid-item figure figcaption h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333333;
+    padding: 12px 0px 12px 14px;
+}
+
+.grid-container .grid-item figure figcaption {
+    background-color: #EDEDED;
+    margin: -4px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-1{
+    margin: 50px 0px 0px 0px;
+    padding: 25px 210px 1.5px 180px;
+    background-color: #333333;
+}
+#footer-text{
+    margin: 0px 0px 20px 0px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#footer-text a{
+    text-decoration: none;
+    margin: 0px 0px 20px 0px;
+    padding-right: 118px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#footer-hr{
+    margin: 0px 0px 20px 0px;
+    font-weight: 100;
+}
